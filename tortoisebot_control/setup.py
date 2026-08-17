@@ -25,7 +25,8 @@ setup(
     entry_points={
         'console_scripts': [
             'teleop_twist_keyboard = tortoisebot_control.teleop_twist_keyboard:main',
-            'obstacle_avoidance = tortoisebot_control.obstacle_avoidance:main'
+            'obstacle_avoidance = tortoisebot_control.obstacle_avoidance:main',
+            'camera_lidar_avoidance = tortoisebot_control.camera_lidar_avoidance:main'
         ],
     },
 )
